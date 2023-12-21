@@ -1,0 +1,30 @@
+{
+    "include": [
+        "src/**/*"
+    ],
+    "compilerOptions": {
+        "baseUrl": "./",
+        "declaration": true,
+        "outDir": "dist/esm",
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "module": "ES6",
+        "moduleResolution": "node",
+        "target": "ES6",
+        "lib": [
+            "DOM",
+            "ESNext",
+            "ES2015",
+            "ES2016.Array.Include"
+        ],
+        "types": [
+            "node"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
